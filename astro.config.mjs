@@ -11,12 +11,12 @@ import alpinejs from "@astrojs/alpinejs";
 
 // https://astro.build/config
 export default defineConfig({
+	base: import.meta.env.DEV ? "/" : "/tool-islands",
 	vite: {
 		plugins: [tailwindcss()],
 		resolve: {
 			alias: [{ find: "@", replacement: "/src" }],
-		},
-		base: import.meta.env.DEV ? "/" : "/tool-islands"
+		}
 	},
 
 	integrations: [
