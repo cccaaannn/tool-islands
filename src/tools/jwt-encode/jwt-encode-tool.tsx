@@ -376,7 +376,7 @@ const JwtEncodeTool = () => {
 							<span className="text-xs opacity-70 mr-2">Built with</span>
 							<div className="tooltip tooltip-top" data-tip="React">
 								<a href="https://react.dev" target="_blank" rel="noopener noreferrer">
-									<img src="/logos/react.svg" alt="React" loading="lazy" decoding="async" width="20" height="20" className="inline" />
+									<img src={`${import.meta.env.BASE_URL}logos/react.svg`} alt="React" loading="lazy" decoding="async" width="20" height="20" className="inline" />
 								</a>
 							</div>
 						</div>

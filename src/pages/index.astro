@@ -4,7 +4,10 @@ import JwtEncodeTool from "@/tools/jwt-encode/jwt-encode-tool";
 import C from "@/utils/constants";
 ---
 
-<script is:inline src="/src/scripts/sortable.ts" type="module"></script>
+<script
+	is:inline
+	src={`${import.meta.env.BASE_URL}src/scripts/sortable.ts`}
+	type="module"></script>
 
 <AppLayout>
 	<div
