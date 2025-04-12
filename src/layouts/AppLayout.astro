@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="Simple developer tools.">
+		<meta name="generator" content={Astro.generator} />
+	
+		<!-- Icon -->
+		<link rel="icon" type="image/ico" href="/favicon.ico">
+	
+		<title>Tool islands</title>
+	</head>
+	<body class="w-dvw h-dvh">
+		<div class="container mx-auto">
+			<main
+				class="flex flex-wrap gap-4 justify-start h-full py-6 px-4 transition-all duration-500 ease-out"
+			>
+				<slot />
+			</main>
+		</div>
+	</body>
+</html>
+
+<style is:global>
+	@import "@/styles/global.css";
+</style>
