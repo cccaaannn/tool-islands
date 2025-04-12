@@ -1,0 +1,42 @@
+{
+  "name": "tool-islands",
+  "type": "module",
+  "description": "A collection of tools for developers built with Astro and various frontend frameworks.",
+  "version": "0.0.1",
+  "homepage": "https://cccaaannn.github.io/tool-islands",
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "astro build && gh-pages --dist dist --branch gh-pages"
+  },
+  "dependencies": {
+    "@astrojs/alpinejs": "^0.4.5",
+    "@astrojs/react": "4.2.3",
+    "@astrojs/solid-js": "5.0.7",
+    "@astrojs/svelte": "7.0.9",
+    "@astrojs/vue": "5.0.9",
+    "@tailwindcss/vite": "4.1.3",
+    "@types/alpinejs": "^3.13.11",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.1",
+    "@types/sortablejs": "^1.15.8",
+    "alpinejs": "^3.14.9",
+    "astro": "5.6.1",
+    "daisyui": "5.0.13",
+    "jose": "^6.0.10",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "solid-js": "^1.9.5",
+    "sortablejs": "^1.15.6",
+    "svelte": "5.25.7",
+    "tailwindcss": "4.1.3",
+    "typescript": "5.8.3",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
