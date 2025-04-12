@@ -2,13 +2,11 @@
 import AppLayout from "@/layouts/AppLayout.astro";
 import JwtEncodeTool from "@/tools/jwt-encode/jwt-encode-tool";
 import C from "@/utils/constants";
-import ResourceUtils from "@/utils/resource-utils";
 ---
 
-<script
-	is:inline
-	src={ResourceUtils.get("src/scripts/sortable.ts")}
-	type="module"></script>
+<script>
+	import "../scripts/sortable";
+</script>
 
 <AppLayout>
 	<div
