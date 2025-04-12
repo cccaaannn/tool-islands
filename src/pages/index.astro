@@ -1,8 +1,10 @@
 ---
 import AppLayout from "@/layouts/AppLayout.astro";
+import Base64EncodeDecodeTool from "@/tools/base64-encode-decode/base64-encode-decode-tool.vue";
 import JwtEncodeTool from "@/tools/jwt-encode/jwt-encode-tool";
 import C from "@/utils/constants";
 ---
+
 
 <script>
 	import "../scripts/sortable";
@@ -15,6 +17,12 @@ import C from "@/utils/constants";
 	>
 		<div id={C.ToolId.JwtEncode} class="rounded-lg h-fit w-full md:w-fit">
 			<JwtEncodeTool client:load />
+		</div>
+		<div
+			id={C.ToolId.Base64EncodeDecode}
+			class="rounded-lg h-fit w-full md:w-fit"
+		>
+			<Base64EncodeDecodeTool client:load />
 		</div>
 	</div>
 </AppLayout>
