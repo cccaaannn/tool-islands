@@ -1,0 +1,18 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro";
+import JwtEncodeTool from "@/tools/jwt-encode/jwt-encode-tool";
+import C from "@/utils/constants";
+---
+
+<script is:inline src="/src/scripts/sortable.ts" type="module"></script>
+
+<AppLayout>
+	<div
+		id={C.ToolLayout.ItemsId}
+		class="flex flex-wrap gap-4 justify-start w-full"
+	>
+		<div id={C.ToolId.JwtEncode} class="rounded-lg h-fit w-full md:w-fit">
+			<JwtEncodeTool client:load />
+		</div>
+	</div>
+</AppLayout>
