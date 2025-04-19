@@ -344,7 +344,7 @@ const JwtEncodeTool = () => {
 										<tr key={index}>
 											<td className="text-left p-2">
 												<div className="tooltip tooltip-right" data-tip={new Date(item.date).toLocaleString()}>
-													<kbd className="kbd">{index + 1}</kbd>
+													<kbd className="kbd">{history.length - index}</kbd>
 												</div>
 											</td>
 											<td className="text-left p-2">

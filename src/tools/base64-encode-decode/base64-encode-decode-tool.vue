@@ -189,7 +189,7 @@ const onEncode = (event: Event) => {
 							<tr v-for="(item, index) in history" :key="index">
 								<td class="text-left p-2">
 									<div class="tooltip tooltip-right" :data-tip="new Date(item.date).toLocaleString()">
-										<kbd class="kbd">{{ index + 1 }}</kbd>
+										<kbd class="kbd">{{ history.length - index }}</kbd>
 									</div>
 								</td>
 								<td class="text-left p-2">
