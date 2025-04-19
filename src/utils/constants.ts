@@ -13,7 +13,7 @@ const ToolId = {
 };
 
 const History = {
-	Max: 100
+	Max: 500
 };
 
 const C = {
