@@ -4,6 +4,7 @@ import Base64EncodeDecodeTool from "@/tools/base64-encode-decode/base64-encode-d
 import GuidGenerateTool from "@/tools/guid-generate/guid-generate-tool.astro";
 import JwtDecodeTool from "@/tools/jwt-decode/jwt-decode-tool";
 import JwtEncodeTool from "@/tools/jwt-encode/jwt-encode-tool";
+import UrlEncodeDecodeTool from "@/tools/url-encode-decode/url-encode-decode-tool.svelte";
 import C from "@/utils/constants";
 ---
 
@@ -34,6 +35,12 @@ import C from "@/utils/constants";
 			class="rounded-lg h-fit w-full md:w-fit"
 		>
 			<Base64EncodeDecodeTool client:load />
+		</div>
+		<div
+			id={C.ToolId.UrlEncodeDecode}
+			class="rounded-lg h-fit w-full md:w-fit"
+		>
+			<UrlEncodeDecodeTool client:load />
 		</div>
 	</div>
 </AppLayout>
