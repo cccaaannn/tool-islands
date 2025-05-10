@@ -152,7 +152,7 @@ const JwtDecodeTool = () => {
 								<textarea disabled value={decodedHeader()}
 									placeholder="JWT header"
 									style={{ color: "white", cursor: "text" }}
-									class="textarea textarea-lg textarea-primary w-full h-28"></textarea>
+									class="textarea textarea-lg textarea-primary w-full h-28 whitespace-pre overflow-auto"></textarea>
 							</fieldset>
 						</div>
 
@@ -164,7 +164,7 @@ const JwtDecodeTool = () => {
 							<textarea disabled value={decodedPayload()}
 								placeholder="JWT body"
 								style={{ color: "white", cursor: "text" }}
-								class="textarea textarea-lg textarea-primary w-full h-full"></textarea>
+								class="textarea textarea-lg textarea-primary w-full h-full whitespace-pre overflow-auto"></textarea>
 						</fieldset>
 					</div>
 

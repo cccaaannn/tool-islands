@@ -199,7 +199,7 @@ const JwtEncodeTool = () => {
 										value={payload}
 										onInput={e => onPayload(e.currentTarget.value)}
 										placeholder="Body (JSON)"
-										className="textarea textarea-lg textarea-primary w-full min-h-[100px] h-full border-sky-900 focus:outline-2 focus:outline-sky-700"></textarea>
+										className="textarea textarea-lg textarea-primary w-full whitespace-pre overflow-auto min-h-[100px] h-full border-sky-900 focus:outline-2 focus:outline-sky-700"></textarea>
 								</fieldset>
 							</div>
 
