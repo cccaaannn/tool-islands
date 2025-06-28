@@ -17,6 +17,7 @@ A collection of tools for developers built with Astro and various frontend frame
 3. JWT decode
 4. JWT encode
 5. GUID generate
+6. String escape
 
 ### Running for Development
 ```shell
@@ -36,6 +37,8 @@ npm run deploy
 #### Used tech
 - [Astro](https://astro.build)
 - [React](https://react.dev)
+- [Preact](https://preactjs.com)
+- [Solidjs](https://www.solidjs.com)
 - [Vue.js](https://vuejs.org)
 - [Svelte](https://svelte.dev)
 - [Alpine.js](https://alpinejs.dev)
