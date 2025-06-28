@@ -9,11 +9,12 @@ const ToolId = {
 	UrlEncodeDecode: "Tools-UrlEncodeDecode",
 	JwtDecode: "Tools-JwtDecode",
 	JwtEncode: "Tools-JwtEncode",
-	GuidGenerate: "Tools-GuidGenerate"
+	GuidGenerate: "Tools-GuidGenerate",
+	StrEscape: "Tools-StrEscape"
 };
 
 const History = {
-	Max: 500
+	Max: 150
 };
 
 const C = {
