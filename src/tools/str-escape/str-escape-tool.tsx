@@ -108,7 +108,7 @@ const StrEscapeTool = () => {
 							<CopyButton text={nonEscaped} />
 						</legend>
 						<textarea value={nonEscaped} onInput={e => onEscape(e.currentTarget.value)}
-							placeholder="Enter JWT to decode"
+							placeholder="Enter string to escape"
 							class="textarea textarea-lg textarea-primary w-full h-28 border-purple-900 focus:outline-2 focus:outline-purple-700"></textarea>
 					</fieldset>
 
@@ -118,7 +118,7 @@ const StrEscapeTool = () => {
 							<CopyButton text={escaped} />
 						</legend>
 						<textarea disabled value={escaped}
-							placeholder="JWT header"
+							placeholder="Escaped string"
 							style={{ color: "white", cursor: "text" }}
 							class="textarea textarea-lg textarea-primary w-full h-28 whitespace-pre overflow-auto"></textarea>
 					</fieldset>
